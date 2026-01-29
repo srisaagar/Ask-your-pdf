@@ -1,10 +1,10 @@
-📄 Ask Your PDF
-Chat with Documents using Local AI (Nebula AI • Neural PDF Engine)
+**📄 Ask Your PDF**
+**Chat with Documents using Local AI (Nebula AI • Neural PDF Engine)**
 
 Ask Your PDF is a local AI-powered PDF question answering system that allows users to upload a PDF and interact with it conversationally.
 All answers are strictly grounded in the uploaded document using semantic search and a local LLM (Ollama).
 
-✨ Features
+**✨ Features**
 
 📤 Upload PDF directly from the web interface
 
@@ -20,7 +20,7 @@ All answers are strictly grounded in the uploaded document using semantic search
 
 🎨 Modern glassmorphism UI (Nebula AI theme)
 
-🧩 Architecture Overview
+**🧩 Architecture Overview**
 PDF Upload
    ↓
 Text Extraction (pdf_loader.py)
@@ -37,7 +37,7 @@ Local LLM (Ollama)
    ↓
 Streaming Response (Flask + JS)
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Backend
 
@@ -59,7 +59,7 @@ CSS3 (Glassmorphism UI)
 
 JavaScript (Streaming Fetch API)
 
-🚀 Installation & Setup
+**🚀 Installation & Setup**
 1️⃣ Clone the repository
 git clone https://github.com/YOUR_USERNAME/ask-your-pdf.git
 cd ask-your-pdf
@@ -100,7 +100,7 @@ Upload a PDF using the Upload PDF button
 
 Wait for the document to be processed
 
-Ask questions like:
+**Ask questions like:**
 
 What is this document about?
 
@@ -112,7 +112,7 @@ Summarize the document
 
 Get real-time, grounded answers ✨
 
-📌 Example Questions
+**📌 Example Questions**
 
 What is the grand total amount?
 
@@ -124,7 +124,7 @@ Explain the document in simple terms
 
 Summarize the quotation
 
-🔐 Privacy & Security
+**🔐 Privacy & Security**
 
 No external APIs
 
