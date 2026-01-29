@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nebula AI • Neural PDF</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="nebula-container">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+</div>
+
+<div class="app-shell">
+
+  <!-- HEADER -->
+  <header class="glass-header">
+    <div class="brand">
+      <div class="diamond-logo"></div>
+      <div>
+        <h1>NEBULA <span class="accent-text">AI</span></h1>
+        <span class="sub-line">NEURAL PDF ENGINE</span>
+      </div>
+    </div>
+    <div class="system-stats">
+      <span class="pulse"></span> LIVE
+    </div>
+  </header>
+
+  <!-- CHAT -->
+  <main class="chat-viewport" id="chatBox">
+    <div class="msg-row bot-row animate-pop">
+      <div class="bubble bot-bubble">
+        <span class="prefix">SYSTEM</span>
+        Neural initialization complete. Ask your first question.
+      </div>
+    </div>
+  </main>
+
+  <!-- INPUT -->
+  <footer class="input-area">
+    <div class="input-glass-wrap">
+      <input
+        id="userInput"
+        placeholder="Transmit query..."
+        autocomplete="off"
+      />
+      <button onclick="sendMessage()">SCAN</button>
+    </div>
+  </footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Vector cache
+vector_cache/
+
+# Uploaded PDFs
+data/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
